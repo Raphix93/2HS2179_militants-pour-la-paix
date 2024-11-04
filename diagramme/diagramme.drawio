@@ -151,9 +151,9 @@
                 <mxCell id="61" value="born in" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="60" connectable="0" vertex="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="62" value="1..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" parent="60" connectable="0" vertex="1">
+                <mxCell id="62" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" parent="60" connectable="0" vertex="1">
                     <mxGeometry x="-1" relative="1" as="geometry">
-                        <mxPoint x="-40" as="offset"/>
+                        <mxPoint x="-19" y="-5" as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="63" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" parent="60" connectable="0" vertex="1">
