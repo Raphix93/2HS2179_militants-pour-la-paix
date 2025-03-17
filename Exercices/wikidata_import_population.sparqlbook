@@ -44,61 +44,61 @@
   {
     "kind": 2,
     "language": "sparql",
-    "value": "### Number of triples in the graph\r\nSELECT (COUNT(*) as ?n)\r\nWHERE {\r\n    GRAPH <https://github.com/Sciences-historiques-numeriques/astronomers/blob/main/Wikidata/graph/imported-data.md>\r\n        {?s ?p ?o}\r\n}",
+    "value": "### Number of triples in the graph\r\nSELECT (COUNT(*) as ?n)\r\nWHERE {\r\n    ### Mon GRAPH\r\n        GRAPH <https://ag1efpn0ahc5nur8.allegrograph.cloud/webview/repositories/peace/>\r\n        {?s ?p ?o}\r\n}",
     "metadata": {}
   },
   {
     "kind": 2,
     "language": "sparql",
-    "value": "### Number of persons with more than one label : no person\r\nSELECT (COUNT(*) as ?n)\r\nWHERE {\r\n    GRAPH <https://github.com/Sciences-historiques-numeriques/astronomers/blob/main/Wikidata/graph/imported-data.md>\r\n        {?s rdf:label ?o}\r\n}\r\nGROUP BY ?s\r\nHAVING (?n > 1)",
+    "value": "### Number of persons with more than one label : no person\r\nSELECT (COUNT(*) as ?n)\r\nWHERE {\r\n    GRAPH <https://ag1efpn0ahc5nur8.allegrograph.cloud/webview/repositories/peace/>\r\n        {?s rdf:label ?o}\r\n}\r\nGROUP BY ?s\r\nHAVING (?n > 1)",
     "metadata": {}
   },
   {
     "kind": 2,
     "language": "sparql",
-    "value": "### Number of persons having more than one gender\r\nPREFIX wd: <http://www.wikidata.org/entity/>\r\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\n\r\nSELECT ?s (COUNT(*) as ?n)\r\nWHERE {\r\n    GRAPH <https://github.com/Sciences-historiques-numeriques/astronomers/blob/main/Wikidata/graph/imported-data.md>\r\n        {?s wdt:P21 ?gen}\r\n}\r\nGROUP BY ?s\r\nHAVING (?n > 1)",
+    "value": "### Number of persons having more than one gender\r\nPREFIX wd: <http://www.wikidata.org/entity/>\r\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\n\r\nSELECT ?s (COUNT(*) as ?n)\r\nWHERE {\r\n    GRAPH <https://ag1efpn0ahc5nur8.allegrograph.cloud/webview/repositories/peace/>\r\n        {?s wdt:P21 ?gen}\r\n}\r\nGROUP BY ?s\r\nHAVING (?n > 1)",
     "metadata": {}
   },
   {
     "kind": 2,
     "language": "sparql",
-    "value": "### Number of persons per gender\r\nPREFIX wd: <http://www.wikidata.org/entity/>\r\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\n\r\nSELECT ?gen (COUNT(*) as ?n)\r\nWHERE {\r\n    GRAPH <https://github.com/Sciences-historiques-numeriques/astronomers/blob/main/Wikidata/graph/imported-data.md>\r\n        {?s wdt:P21 ?gen}\r\n}\r\nGROUP BY ?gen\r\n#HAVING (?n > 1)",
+    "value": "### Number of persons per gender\r\nPREFIX wd: <http://www.wikidata.org/entity/>\r\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\n\r\nSELECT ?gen (COUNT(*) as ?n)\r\nWHERE {\r\n    GRAPH <https://ag1efpn0ahc5nur8.allegrograph.cloud/webview/repositories/peace/>\r\n        {?s wdt:P21 ?gen}\r\n}\r\nGROUP BY ?gen\r\n#HAVING (?n > 1)",
     "metadata": {}
   },
   {
     "kind": 2,
     "language": "sparql",
-    "value": "### Number of persons per gender\r\nPREFIX wd: <http://www.wikidata.org/entity/>\r\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\n\r\nSELECT ?gen (COUNT(*) as ?n)\r\nWHERE {\r\n    GRAPH <https://github.com/Sciences-historiques-numeriques/astronomers/blob/main/Wikidata/graph/imported-data.md>\r\n        {?s wdt:P21 ?gen}\r\n}\r\nGROUP BY ?gen\r\nHAVING (?n > 1)",
+    "value": "### Number of persons per gender\r\nPREFIX wd: <http://www.wikidata.org/entity/>\r\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\n\r\nSELECT ?gen (COUNT(*) as ?n)\r\nWHERE {\r\n    GRAPH <https://ag1efpn0ahc5nur8.allegrograph.cloud/webview/repositories/peace/>\r\n        {?s wdt:P21 ?gen}\r\n}\r\nGROUP BY ?gen\r\nHAVING (?n > 1)",
     "metadata": {}
   },
   {
     "kind": 2,
     "language": "sparql",
-    "value": "### Number of persons per gender\r\nPREFIX wd: <http://www.wikidata.org/entity/>\r\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\n\r\nSELECT ?gen (COUNT(*) as ?n)\r\nWHERE {\r\n    GRAPH <https://github.com/Sciences-historiques-numeriques/astronomers/blob/main/Wikidata/graph/imported-data.md>\r\n        {?s wdt:P21 ?gen;\r\n            wdt:P569 ?birthDate.\r\n        FILTER (?birthDate < '1900')     \r\n          }\r\n}\r\nGROUP BY ?gen\r\n#HAVING (?n > 1)",
+    "value": "### Number of persons per gender\r\nPREFIX wd: <http://www.wikidata.org/entity/>\r\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\n\r\nSELECT ?gen (COUNT(*) as ?n)\r\nWHERE {\r\n    GRAPH <https://ag1efpn0ahc5nur8.allegrograph.cloud/webview/repositories/peace/>\r\n        {?s wdt:P21 ?gen;\r\n            wdt:P569 ?birthDate.\r\n        FILTER (?birthDate > '1800')     \r\n          }\r\n}\r\nGROUP BY ?gen\r\n#HAVING (?n > 1)",
     "metadata": {}
   },
   {
     "kind": 2,
     "language": "sparql",
-    "value": "### Add the label to the gender\r\n\r\nPREFIX wd: <http://www.wikidata.org/entity/>\r\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\nPREFIX wikibase: <http://wikiba.se/ontology#>\r\nPREFIX bd: <http://www.bigdata.com/rdf#>\r\n\r\nSELECT ?gen ?genLabel\r\nWHERE {\r\n\r\n    \r\n\r\n    {SELECT DISTINCT ?gen\r\n    WHERE {\r\n        GRAPH <https://github.com/Sciences-historiques-numeriques/astronomers/blob/main/Wikidata/graph/imported-data.md>    \r\n            {?s wdt:P21 ?gen}\r\n    }\r\n    }   \r\n\r\n    SERVICE  <https://query.wikidata.org/sparql> {\r\n        ## Add this clause in order to fill the variable      \r\n        BIND(?gen as ?gen)\r\n        BIND ( ?genLabel as ?genLabel)\r\n        SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }  \r\n    }\r\n}",
+    "value": "### Add the label to the gender\r\n\r\nPREFIX wd: <http://www.wikidata.org/entity/>\r\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\nPREFIX wikibase: <http://wikiba.se/ontology#>\r\nPREFIX bd: <http://www.bigdata.com/rdf#>\r\n\r\nSELECT ?gen ?genLabel\r\nWHERE {\r\n\r\n    \r\n\r\n    {SELECT DISTINCT ?gen\r\n    WHERE {\r\n        GRAPH <https://ag1efpn0ahc5nur8.allegrograph.cloud/webview/repositories/peace/>    \r\n            {?s wdt:P21 ?gen}\r\n    }\r\n    }   \r\n\r\n    SERVICE  <https://query.wikidata.org/sparql> {\r\n        ## Add this clause in order to fill the variable      \r\n        BIND(?gen as ?gen)\r\n        BIND ( ?genLabel as ?genLabel)\r\n        SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }  \r\n    }\r\n}",
     "metadata": {}
   },
   {
     "kind": 2,
     "language": "sparql",
-    "value": "### Add the label to the gender\r\n\r\nPREFIX wd: <http://www.wikidata.org/entity/>\r\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\nPREFIX wikibase: <http://wikiba.se/ontology#>\r\nPREFIX bd: <http://www.bigdata.com/rdf#>\r\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n\r\nCONSTRUCT {\r\n     ?gen rdfs:label ?genLabel\r\n    \r\n} \r\nWHERE {\r\n\r\n    \r\n\r\n    {SELECT DISTINCT ?gen\r\n    WHERE {\r\n        GRAPH <https://github.com/Sciences-historiques-numeriques/astronomers/blob/main/Wikidata/graph/imported-data.md>    \r\n            {?s wdt:P21 ?gen}\r\n    }\r\n    }   \r\n\r\n    SERVICE  <https://query.wikidata.org/sparql> {\r\n        ## Add this clause in order to fill the variable      \r\n        BIND(?gen as ?gen)\r\n        BIND ( ?genLabel as ?genLabel)\r\n        SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }  \r\n    }\r\n}",
+    "value": "### Add the label to the gender\r\n\r\nPREFIX wd: <http://www.wikidata.org/entity/>\r\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\nPREFIX wikibase: <http://wikiba.se/ontology#>\r\nPREFIX bd: <http://www.bigdata.com/rdf#>\r\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n\r\nCONSTRUCT {\r\n     ?gen rdfs:label ?genLabel\r\n    \r\n} \r\nWHERE {\r\n\r\n    \r\n\r\n    {SELECT DISTINCT ?gen\r\n    WHERE {\r\n        GRAPH <https://ag1efpn0ahc5nur8.allegrograph.cloud/webview/repositories/peace/>    \r\n            {?s wdt:P21 ?gen}\r\n    }\r\n    }   \r\n\r\n    SERVICE  <https://query.wikidata.org/sparql> {\r\n        ## Add this clause in order to fill the variable      \r\n        BIND(?gen as ?gen)\r\n        BIND ( ?genLabel as ?genLabel)\r\n        SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }  \r\n    }\r\n}",
     "metadata": {}
   },
   {
     "kind": 2,
     "language": "sparql",
-    "value": "### Add the label to the gender: INSERT\r\n\r\nPREFIX wd: <http://www.wikidata.org/entity/>\r\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\nPREFIX wikibase: <http://wikiba.se/ontology#>\r\nPREFIX bd: <http://www.bigdata.com/rdf#>\r\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n\r\nWITH <https://github.com/Sciences-historiques-numeriques/astronomers/blob/main/Wikidata/graph/imported-data.md> \r\nINSERT {\r\n     ?gen rdfs:label ?genLabel\r\n    \r\n} \r\nWHERE {    \r\n\r\n    {SELECT DISTINCT ?gen\r\n    WHERE {\r\n        GRAPH <https://github.com/Sciences-historiques-numeriques/astronomers/blob/main/Wikidata/graph/imported-data.md>    \r\n            {?s wdt:P21 ?gen}\r\n    }\r\n    }   \r\n\r\n    SERVICE  <https://query.wikidata.org/sparql> {\r\n        ## Add this clause in order to fill the variable      \r\n        BIND(?gen as ?gen)\r\n        BIND ( ?genLabel as ?genLabel)\r\n        SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }  \r\n    }\r\n}",
+    "value": "### Add the label to the gender: INSERT\r\n\r\nPREFIX wd: <http://www.wikidata.org/entity/>\r\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\nPREFIX wikibase: <http://wikiba.se/ontology#>\r\nPREFIX bd: <http://www.bigdata.com/rdf#>\r\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\nPREFIX franzOption_defaultDatasetBehavior: <franz:rdf>\r\n\r\n\r\nINSERT {\r\n     ?gen rdfs:label ?genLabel\r\n    \r\n} \r\nWHERE {    \r\n\r\n    {SELECT DISTINCT ?gen\r\n    WHERE {\r\n        GRAPH <https://ag1efpn0ahc5nur8.allegrograph.cloud/webview/repositories/peace/>    \r\n            {?s wdt:P21 ?gen}\r\n    }\r\n    }   \r\n\r\n    SERVICE  <https://query.wikidata.org/sparql> {\r\n        ## Add this clause in order to fill the variable      \r\n        BIND(?gen as ?gen)\r\n        BIND ( ?genLabel as ?genLabel)\r\n        SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }  \r\n    }\r\n}",
     "metadata": {}
   },
   {
     "kind": 2,
     "language": "sparql",
-    "value": "### Verify data insertion - using only Allegrograph data\r\n\r\nPREFIX wd: <http://www.wikidata.org/entity/>\r\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\nPREFIX wikibase: <http://wikiba.se/ontology#>\r\nPREFIX bd: <http://www.bigdata.com/rdf#>\r\n\r\nSELECT ?gen ?genLabel\r\nWHERE\r\n{\r\n    {\r\n    SELECT DISTINCT ?gen\r\n        WHERE {\r\n            GRAPH <https://github.com/Sciences-historiques-numeriques/astronomers/blob/main/Wikidata/graph/imported-data.md>  \r\n                    {\r\n            ?s wdt:P21 ?gen.\r\n            }\r\n     }\r\n    }    \r\n    ?gen rdfs:label ?genLabel\r\n    }   \r\n",
+    "value": "### Verify data insertion - using only Allegrograph data\r\n\r\nPREFIX wd: <http://www.wikidata.org/entity/>\r\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\nPREFIX wikibase: <http://wikiba.se/ontology#>\r\nPREFIX bd: <http://www.bigdata.com/rdf#>\r\n\r\nSELECT ?gen ?genLabel\r\nWHERE\r\n{\r\n    {\r\n    SELECT DISTINCT ?gen\r\n        WHERE {\r\n            { GRAPH ?g { ?s ?p ?o . }  }  \r\n                    {\r\n            ?s wdt:P21 ?gen.\r\n            }\r\n     }\r\n    }    \r\n    ?gen rdfs:label ?genLabel\r\n    }   \r\n",
     "metadata": {}
   },
   {
@@ -129,6 +129,12 @@
     "kind": 2,
     "language": "sparql",
     "value": "### Nombre de personnes avec propriétés de base sans doublons (choix aléatoire)\r\n\r\nPREFIX wd: <http://www.wikidata.org/entity/>\r\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n\r\nSELECT (COUNT(*) as ?n)\r\nWHERE {\r\nSELECT  ?s (MAX(?label) as ?label) (xsd:integer(MAX(?birthDate)) as ?birthDate) (MAX(?gen) as ?gen)\r\nWHERE {\r\n    GRAPH <https://github.com/Sciences-historiques-numeriques/astronomers/blob/main/Wikidata/graph/imported-data.md>\r\n        {?s wdt:P21 ?gen;\r\n            rdfs:label ?label;\r\n            wdt:P569 ?birthDate.\r\n          }\r\n}\r\nGROUP BY ?s\r\n}",
+    "metadata": {}
+  },
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "#Test d'export de données\r\n\r\nPREFIX wd: <http://www.wikidata.org/entity/>\r\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\nPREFIX wikibase: <http://wikiba.se/ontology#>\r\nPREFIX bd: <http://www.bigdata.com/rdf#>\r\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n\r\nINSERT {\r\n    ### Mon GRAPH\r\n    GRAPH <https://ag1efpn0ahc5nur8.allegrograph.cloud/webview/repositories/peace/> {\r\n        ?item rdfs:label ?itemLabel .\r\n        ?item wdt:P21 ?gender .\r\n        ?item wdt:P569 ?birthDate .\r\n        ?item wdt:P31 wd:Q5 .  # Instance de \"humain\"\r\n        ?item wdt:P106 ?occupation .\r\n        ?item wdt:P27 ?country .\r\n        ?item wdt:P69 ?education .\r\n        ?item wdt:P166 ?award .\r\n        ?item wdt:P19 ?placeOfBirth .\r\n        ?item wdt:P570 ?dateOfDeath .\r\n        ?item wdt:P20 ?placeOfDeath .\r\n        ?item wdt:P214 ?VIAF_ID .\r\n        ?item wdt:P463 ?member .\r\n    }\r\n}\r\nWHERE {\r\n    ## Note le service address\r\n    SERVICE <https://query.wikidata.org/sparql> {\r\n        ?item wdt:P106 wd:Q16323111 .  # Militants pacifiques\r\n        \r\n        ?item wdt:P31 wd:Q5 ;  # Instance de \"humain\"\r\n              wdt:P569 ?birthDate ;\r\n              wdt:P21 ?gender .\r\n        \r\n        OPTIONAL { ?item wdt:P106 ?occupation. }  # Profession\r\n        OPTIONAL { ?item wdt:P27 ?country. }  # Pays de citoyenneté\r\n        OPTIONAL { ?item wdt:P69 ?education. }  # Éducation\r\n        OPTIONAL { ?item wdt:P166 ?award. }  # Récompenses\r\n        OPTIONAL { ?item wdt:P19 ?placeOfBirth. }  # Lieu de naissance\r\n        OPTIONAL { ?item wdt:P570 ?dateOfDeath. }  # Date de décès\r\n        OPTIONAL { ?item wdt:P20 ?placeOfDeath. }  # Lieu de décès\r\n        OPTIONAL { ?item wdt:P214 ?VIAF_ID. }  # Identifiant VIAF\r\n        OPTIONAL { ?item wdt:P463 ?member. }  # Membre de (organisation, groupe, etc.)\r\n\r\n        BIND(xsd:integer(REPLACE(str(?birthDate), \"(.*)([0-9]{4})(.*)\", \"$2\")) AS ?year)\r\n        FILTER(?year > 1800  && ?year < 2000) \r\n\r\n        ## Ajout des labels en anglais\r\n        SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }\r\n    }\r\n}\r\n",
     "metadata": {}
   }
 ]
