@@ -92,6 +92,12 @@
   {
     "kind": 2,
     "language": "sparql",
+    "value": "PREFIX wd: <http://www.wikidata.org/entity/>\r\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\nPREFIX wikibase: <http://wikiba.se/ontology#>\r\nPREFIX bd: <http://www.bigdata.com/rdf#>\r\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n\r\nINSERT {\r\n     ?gen rdfs:label ?genLabel .\r\n} \r\nWHERE {    \r\n    { \r\n        SELECT DISTINCT ?gen WHERE {\r\n            GRAPH <https://github.com/Raphix93/2HS2179_militants-pour-la-paix/blob/main/wikidata/graph/imported-data.md> {    \r\n                ?s wdt:P21 ?gen .\r\n            }\r\n        } \r\n    }   \r\n\r\n    # Ajout des labels depuis Wikidata en les associant correctement\r\n    SERVICE <https://query.wikidata.org/sparql> {\r\n        ?gen rdfs:label ?genLabel .\r\n        FILTER (LANG(?genLabel) = \"en\")  # On filtre pour garder uniquement l'anglais\r\n    }\r\n}\r\n",
+    "metadata": {}
+  },
+  {
+    "kind": 2,
+    "language": "sparql",
     "value": "### Add the label to the gender: INSERT\r\n\r\nPREFIX wd: <http://www.wikidata.org/entity/>\r\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\nPREFIX wikibase: <http://wikiba.se/ontology#>\r\nPREFIX bd: <http://www.bigdata.com/rdf#>\r\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\nPREFIX franzOption_defaultDatasetBehavior: <franz:rdf>\r\n\r\n\r\nINSERT {\r\n     ?gen rdfs:label ?genLabel\r\n    \r\n} \r\nWHERE {    \r\n\r\n    {SELECT DISTINCT ?gen\r\n    WHERE {\r\n        GRAPH <https://github.com/Raphix93/2HS2179_militants-pour-la-paix/blob/main/wikidata/graph/imported-data.md>    \r\n            {?s wdt:P21 ?gen}\r\n    }\r\n    }   \r\n\r\n    SERVICE  <https://query.wikidata.org/sparql> {\r\n        ## Add this clause in order to fill the variable      \r\n        BIND(?gen as ?gen)\r\n        BIND ( ?genLabel as ?genLabel)\r\n        SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }  \r\n    }\r\n}",
     "metadata": {}
   },
