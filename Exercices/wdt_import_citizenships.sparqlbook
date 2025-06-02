@@ -14,7 +14,7 @@
   {
     "kind": 2,
     "language": "sparql",
-    "value": "### Number of persons in our population\r\nPREFIX wd: <http://www.wikidata.org/entity/>\r\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\n\r\n\r\nSELECT (COUNT(*) as ?n)\r\nWHERE {\r\n    GRAPH <https://github.com/Raphix93/2HS2179_militants-pour-la-paix/blob/main/wikidata/graph/imported-data.md>\r\n        {?s a wd:Q5.}\r\n}\r\n",
+    "value": "### Number of persons in our population\r\nPREFIX wd: <http://www.wikidata.org/entity/>\r\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\nPREFIX wikibase: <http://wikiba.se/ontology#>\r\nPREFIX bd: <http://www.bigdata.com/rdf#>\r\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\nPREFIX franzOption_defaultDatasetBehavior: <franz:rdf>\r\n\r\n\r\n\r\nSELECT (COUNT(*) as ?n)\r\nWHERE {\r\n    GRAPH <https://github.com/Raphix93/2HS2179_militants-pour-la-paix/blob/main/wikidata/graph/imported-data.md>\r\n        {?s wdt:P31 wd:Q5.}\r\n}\r\n",
     "metadata": {}
   },
   {
@@ -26,7 +26,7 @@
   {
     "kind": 2,
     "language": "sparql",
-    "value": "### Mon alternative\r\nPREFIX wd: <http://www.wikidata.org/entity/>\r\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\nPREFIX wikibase: <http://wikiba.se/ontology#>\r\nPREFIX bd: <http://www.bigdata.com/rdf#>\r\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\nPREFIX franzOption_defaultDatasetBehavior: <franz:rdf>\r\n\r\nWHERE {\r\n    GRAPH <https://github.com/Raphix93/2HS2179_militants-pour-la-paix/blob/main/wikidata/graph/imported-data.md>\r\n        {?s wdt:P31 wd:Q5;\r\n            rdfs:label ?label;\r\n            wdt:P569 ?birthYear}\r\n\r\n# Récupérer les labels en anglais\r\nSERVICE wikibase:label { bd:serviceParam wikibase:language \"en\". ?s rdfs:label ?label }\r\n}\r\nORDER BY ?s\r\nLIMIT 3\r\n\r\n\r\n",
+    "value": "### Mon alternative\r\nPREFIX wd:     <http://www.wikidata.org/entity/>\r\nPREFIX wdt:    <http://www.wikidata.org/prop/direct/>\r\nPREFIX wikibase: <http://wikiba.se/ontology#>\r\nPREFIX bd:     <http://www.bigdata.com/rdf#>\r\nPREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>\r\nPREFIX franzOption_defaultDatasetBehavior: <franz:rdf>\r\n\r\nSELECT ?s ?label ?birthYear\r\nWHERE {\r\n  GRAPH <https://github.com/Raphix93/2HS2179_militants-pour-la-paix/blob/main/wikidata/graph/imported-data.md> {\r\n    ?s wdt:P31 wd:Q5;\r\n       rdfs:label ?label;\r\n       wdt:P569 ?birthYear.\r\n  }\r\n  SERVICE wikibase:label {\r\n    bd:serviceParam wikibase:language \"en\".\r\n    # Cette ligne permet que ?label prenne la valeur du rdfs:label en anglais\r\n  }\r\n}\r\nORDER BY ?s\r\nLIMIT 3\r\n\r\n\r\n",
     "metadata": {}
   },
   {
@@ -195,6 +195,12 @@
     "kind": 2,
     "language": "sparql",
     "value": "### Persons with more than one citizenship\r\nPREFIX wikibase: <http://wikiba.se/ontology#>\r\nPREFIX bd: <http://www.bigdata.com/rdf#>\r\nPREFIX wd: <http://www.wikidata.org/entity/>\r\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\n\r\n\r\nSELECT ?item (COUNT(*) as ?n) ( GROUP_CONCAT(?continentLabel; separator=\", \") AS ?continents )\r\n    ( GROUP_CONCAT(?countryLabel; separator=\", \") AS ?countries )\r\nWHERE {\r\n    SELECT DISTINCT ?item ?continentLabel ?coutryLabel\r\n    WHERE \r\n        {\r\n        GRAPH <https://github.com/Raphix93/2HS2179_militants-pour-la-paix/blob/main/wikidata/graph/imported-data.md>\r\n            {\r\n            ?item wdt:P27 ?country.\r\n            ?country wdt:P30 ?continent;\r\n                rdfs:label ?countryLabel.\r\n            ?continent rdfs:label ?continentLabel.\r\n            ## Excluding Eurasia, Australia and Oceania insular\r\n            FILTER ( ?continent NOT IN (wd:Q538, wd:Q3960, wd:Q5401))\r\n            }\r\n        }\r\n}\r\nGROUP BY ?item\r\n#HAVING (?n > 1)\r\nORDER BY DESC(?n)\r\n#OFFSET 10\r\nLIMIT 10",
+    "metadata": {}
+  },
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "#mon alternative \r\n\r\nPREFIX wikibase: <http://wikiba.se/ontology#>\r\nPREFIX bd:       <http://www.bigdata.com/rdf#>\r\nPREFIX wd:       <http://www.wikidata.org/entity/>\r\nPREFIX wdt:      <http://www.wikidata.org/prop/direct/>\r\nPREFIX rdfs:     <http://www.w3.org/2000/01/rdf-schema#>\r\n\r\nSELECT \r\n  ?item \r\n  (COUNT(DISTINCT ?country)       AS ?n) \r\n  (GROUP_CONCAT(DISTINCT ?continentLabel; separator=\", \") AS ?continents)\r\n  (GROUP_CONCAT(DISTINCT ?countryLabel;   separator=\", \") AS ?countries)\r\nWHERE {\r\n  GRAPH <https://github.com/Raphix93/2HS2179_militants-pour-la-paix/blob/main/wikidata/graph/imported-data.md> {\r\n    ?item  wdt:P31     wd:Q5 ;         # On s’assure que c’est un humain\r\n           wdt:P27     ?country.      # Lien vers chaque pays de citoyenneté\r\n\r\n    ?country wdt:P30    ?continent ;   # Lien pays → continent\r\n             rdfs:label ?countryLabel.\r\n    ?continent rdfs:label ?continentLabel.\r\n\r\n    # Exclure Eurasie (Q538), Australie (Q3960) et Océanie insulaire (Q5401)\r\n    FILTER (?continent NOT IN (wd:Q538, wd:Q3960, wd:Q5401))\r\n\r\n    # Facultatif : ne garder que les labels en anglais\r\n    FILTER (LANG(?countryLabel)   = \"en\")\r\n    FILTER (LANG(?continentLabel) = \"en\")\r\n  }\r\n}\r\nGROUP BY ?item\r\nHAVING (COUNT(DISTINCT ?country) > 1)\r\nORDER BY DESC(?n)\r\nLIMIT 10\r\n",
     "metadata": {}
   },
   {
