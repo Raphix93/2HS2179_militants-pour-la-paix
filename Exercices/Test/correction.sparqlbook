@@ -1,0 +1,20 @@
+[
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "PREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\nSELECT (COUNT(*) AS ?nbP31) WHERE {\r\n  GRAPH <https://github.com/Raphix93/2HS2179_militants-pour-la-paix/blob/main/wikidata/graph/imported-data.md> {\r\n    ?s wdt:P31 ?classe .\r\n  }\r\n}\r\n",
+    "metadata": {}
+  },
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "PREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\nPREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n\r\nCONSTRUCT {\r\n  ?s rdf:type ?classe .\r\n}\r\nWHERE {\r\n  GRAPH <https://github.com/Raphix93/2HS2179_militants-pour-la-paix/blob/main/wikidata/graph/imported-data.md> {\r\n    ?s wdt:P31 ?classe .\r\n  }\r\n}",
+    "metadata": {}
+  },
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "PREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\nPREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n\r\nWITH <https://github.com/Raphix93/2HS2179_militants-pour-la-paix/blob/main/wikidata/graph/imported-data.md>\r\nINSERT {\r\n  ?s rdf:type ?classe .\r\n}\r\nWHERE {\r\n  GRAPH <https://github.com/Raphix93/2HS2179_militants-pour-la-paix/blob/main/wikidata/graph/imported-data.md> {\r\n    ?s wdt:P31 ?classe .\r\n  }\r\n}\r\n",
+    "metadata": {}
+  }
+]
