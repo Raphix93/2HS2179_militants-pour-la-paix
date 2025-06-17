@@ -1,0 +1,51 @@
+,periods,relaType,orgMainType,period_members_number
+3,1830-1859,employment,generic organisation,2
+4,1830-1859,employment,university,3
+8,1860-1889,employment,generic organisation,16
+9,1860-1889,employment,international organisation,3
+10,1860-1889,employment,non-governmental organisation,4
+11,1860-1889,employment,university,30
+18,1890-1919,employment,generic organisation,25
+19,1890-1919,employment,international organisation,3
+20,1890-1919,employment,non-governmental organisation,3
+21,1890-1919,employment,university,48
+28,1920-1949,employment,generic organisation,39
+29,1920-1949,employment,international organisation,4
+30,1920-1949,employment,non-governmental organisation,2
+31,1920-1949,employment,university,117
+38,1950-1979,employment,generic organisation,19
+39,1950-1979,employment,international organisation,1
+40,1950-1979,employment,non-governmental organisation,6
+41,1950-1979,employment,political organisation,1
+42,1950-1979,employment,university,30
+48,1980-2009,employment,generic organisation,1
+0,1800-1829,membership,generic organisation,9
+1,1800-1829,membership,learned society,1
+2,1800-1829,membership,political organisation,1
+5,1830-1859,membership,generic organisation,6
+6,1830-1859,membership,international organisation,4
+7,1830-1859,membership,political organisation,1
+12,1860-1889,membership,generic organisation,51
+13,1860-1889,membership,international organisation,35
+14,1860-1889,membership,learned society,6
+15,1860-1889,membership,non-governmental organisation,7
+16,1860-1889,membership,political organisation,3
+17,1860-1889,membership,university,1
+22,1890-1919,membership,generic organisation,43
+23,1890-1919,membership,international organisation,12
+24,1890-1919,membership,learned society,13
+25,1890-1919,membership,musical group,1
+26,1890-1919,membership,non-governmental organisation,7
+27,1890-1919,membership,political organisation,1
+32,1920-1949,membership,generic organisation,46
+33,1920-1949,membership,international organisation,5
+34,1920-1949,membership,learned society,16
+35,1920-1949,membership,musical group,6
+36,1920-1949,membership,non-governmental organisation,8
+37,1920-1949,membership,political organisation,3
+43,1950-1979,membership,generic organisation,17
+44,1950-1979,membership,international organisation,5
+45,1950-1979,membership,musical group,6
+46,1950-1979,membership,non-governmental organisation,3
+47,1950-1979,membership,political organisation,4
+49,1980-2009,membership,generic organisation,1
