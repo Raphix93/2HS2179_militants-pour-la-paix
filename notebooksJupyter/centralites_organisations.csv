@@ -1,0 +1,484 @@
+Organisation,Eigenvector,Betweenness
+Women's International League for Peace and Freedom,0.6024930395721119,0.04754999866660453
+International Committee of Women for Permanent Peace,0.34424136843364334,0.02261376684513664
+Alpha Kappa Alpha,0.039040969819332035,0.02717882300911244
+Daughters of the American Revolution,0.03894150001042897,0.01679637609287959
+Phi Beta Kappa Society,0.03748373173471138,0.004495315588917859
+National Union of Societies for Equal Citizenship,0.03328061410793239,0.0
+League of Nations Union,0.03328061410793239,0.0
+National Woman's Party,0.02879055207564244,0.022830709703315116
+Norwegian Association for Women's Rights,0.027021890236363446,0.0009196917170443802
+Six Point Group,0.024577807431894295,0.00882445635045698
+War Resisters' International,0.024547154040272537,0.0009082313841217087
+Peace Pledge Union,0.023740929382209085,0.0
+Peace News,0.023740929382209085,0.0
+Women's Social and Political Union,0.023740929382209085,0.0
+Heterodoxy,0.023406725114400666,0.0007885118348402309
+Consumers' Cooperative of Berkeley,0.022781123286890265,0.0
+Gray Panthers,0.022781123286890265,0.0
+Fellowship of Reconciliation,0.022781123286890265,0.0
+Congress of Racial Equality,0.022781123286890265,0.0
+Union of Democratic Control,0.021951120363044932,0.0
+Westfield College,0.021951120363044932,0.0
+The Guardian,0.021951120363044932,0.0
+University of Wisconsin–Madison,0.020460232204889843,0.0
+Feminist Association,0.020460232204889843,0.0
+Belgian Red Cross,0.020460232204889843,0.0
+Wellesley College,0.020460232204889843,0.0
+Vorwärts,0.020460232204889843,0.0
+Kvinnestemmerettsforeningen,0.013526544384297243,0.0
+Norwegian Red Cross,0.013526544384297243,0.0
+Q19383539,0.013526544384297243,0.0
+Oslo Zoological Museum,0.0126078405287232,0.0
+University of Vienna,0.012115605728233628,0.0018107326017820819
+Q10561469,0.012101142440657598,0.0
+National Council of Swedish Women,0.012101142440657598,0.0
+United Nations,0.003568827498124659,0.021052919426076122
+Brandeis University,0.0029340308641674262,0.017443249067563213
+Industrial Workers of the World,0.00273750934359016,0.004806013988749009
+Silent Sentinels,0.0024132585329532143,1.3847902281561282e-05
+NAACP,0.0019687768516115835,0.0009082313841217087
+National Child Labor Committee,0.0019041140116977811,0.0
+Women's Trade Union League,0.0019041140116977811,0.0
+University of Pittsburgh,0.0014783778516010437,0.008405372064044824
+Temple University,0.0014423101859391708,0.0028856910380726155
+Commonweal,0.0013883925139809583,0.0
+The Liberator,0.0013883925139809583,0.0
+New York Call,0.0013883925139809583,0.0
+Staten Island Advance,0.0013883925139809583,0.0
+The Masses,0.0013883925139809583,0.0
+Pathé,0.0013883925139809583,0.0
+Schwarzburgbund,0.001365680638634901,0.0
+Princeton Theological Seminary,0.001365680638634901,0.0
+Westminster Theological Seminary,0.001365680638634901,0.0
+American Academy of Arts and Letters,0.001331145504647835,0.02457024341259348
+American Academy of Arts and Sciences,0.001196959379845204,0.06960328384578168
+World Committee of Women Against War and Fascism,0.0009026521054703771,0.007151247743746956
+University of Giessen,0.0004114374505377829,0.0
+Columbia University,0.00035695466760010257,0.0222037753762066
+Harvard University,0.0003493288865807557,0.03343759637454962
+Alpha Phi Alpha,0.00025353274548956217,0.0005752111109816751
+German Academy of Sciences Leopoldina,0.00023773639540715895,0.00042963969531886374
+National Academy of Sciences,0.00023773639540715895,0.00042963969531886374
+Stanford University,0.00020774927433868433,0.008474112007028413
+Legion of Honour,0.00018934133324673366,0.0
+Congressional Black Caucus,0.00018934133324673366,0.0
+National Council of Churches,0.00018934133324673366,0.0
+Royal Society,0.00018196386013101664,0.006818041068218585
+Cornell University,0.0001794729999777321,0.002651282429095225
+"University of California, San Diego",0.00016714259053351448,0.011365137996086624
+Hungarian Academy of Sciences,0.0001542187722798045,0.00045218835696053027
+American Philosophical Society,0.00015235923595036552,0.0009022723994103351
+French Academy of Sciences,0.00015155267100215063,0.0009082313841217087
+Bavarian Academy of Sciences and Humanities,0.00014569180905410186,0.0
+California Institute of Technology,0.00014569180905410186,0.0
+International Academy of Quantum Molecular Science,0.00014569180905410186,0.0
+Académie Nationale de Médecine,0.00014569180905410186,0.0
+Polish Academy of Sciences,0.00014569180905410186,0.0
+Linus Pauling Institute,0.00014569180905410186,0.0
+Oregon State University,0.00014569180905410186,0.0
+Academy of Sciences of the USSR,0.00014569180905410186,0.0
+Royal Society of Edinburgh,0.00014569180905410186,0.0
+Young Women’s Christian Association,0.00012159165901402127,0.0
+Epsom Girls' Grammar School,0.00012159165901402127,0.0
+Academy of the Kingdom of  for Royaume,0.00012159165901402127,0.0
+Corps Rhenania Tübingen,0.00012159165901402127,0.0
+University of Leeds,0.00011228281687241565,0.0017547034899629483
+University of Warwick,0.00010364204961882007,0.0018107326017820819
+Russian Academy of Sciences,9.204458635305709e-05,0.0
+Leiden University,9.204458635305709e-05,0.0
+Fitzwilliam College,9.204458635305709e-05,0.0
+Göttingen Academy of Sciences and Humanities in Lower Saxony,9.204458635305709e-05,0.0
+University of Groningen,9.204458635305709e-05,0.0
+University of Szeged,9.204458635305709e-05,0.0
+Pontifical Academy of Sciences,9.204458635305709e-05,0.0
+Vrije Universiteit Amsterdam,6.419141224282847e-05,0.0
+Dexter Avenue Baptist Church,6.419141224282847e-05,0.0
+Ebenezer Baptist Church,6.419141224282847e-05,0.0
+Progressive National Baptist Convention,6.419141224282847e-05,0.0
+Southern Christian Leadership Conference,6.419141224282847e-05,0.0
+Kappa Alpha Psi,6.381246038206277e-05,0.0
+Morehouse College,6.381246038206277e-05,0.0
+University of Iowa,6.083823908937533e-05,0.0
+Bavarian Academy of Fine Arts,6.083823908937533e-05,0.0
+John Jay College of Criminal Justice,5.853650955629242e-05,0.0
+American Historical Association,5.793482419921692e-05,0.0
+London School of Economics and Political Science,5.5134350494022095e-05,0.006077230710995219
+Duke University,5.17235731663378e-05,0.006613259276354136
+Georgetown University,5.139506635456717e-05,0.0049107526573646965
+University of Notre Dame,5.1124338830742964e-05,0.0018107326017820819
+Emory University,5.109574840094223e-05,0.0
+Trilateral Commission,5.109574840094223e-05,0.0
+The Elders,5.109574840094223e-05,0.0
+American Legion,5.109574840094223e-05,0.0
+Georgetown University Law Center,4.922810566600109e-05,0.0013351287854912186
+Duke Divinity School,4.9149581622153685e-05,0.0
+Washington University in St. Louis,4.768499492285562e-05,0.007105406412056271
+The Daily Tar Heel,4.533331318573151e-05,0.0
+American Anti-Imperialist League,4.517511628277197e-05,0.0
+Lycée Condorcet,4.517511628277197e-05,0.0
+Partisans Armés,3.288702789258506e-05,0.0
+Q131821843,3.288702789258506e-05,0.0
+La Vie Ouvrière,3.288702789258506e-05,0.0
+Les Femmes dans l'action mondiale,3.288702789258506e-05,0.0
+Confédération générale du travail unitaire,3.288702789258506e-05,0.0
+Independent Front,3.288702789258506e-05,0.0
+"University of California, Los Angeles",2.5938618193445393e-05,0.0036071397874108246
+University of Chicago,2.490616262499831e-05,0.005363435807810217
+Brown University,2.1711588453967404e-05,0.0
+American Association for the Advancement of Science,2.0302092674395677e-05,0.00027995864941450196
+Nobel Women's Initiative,1.544931523371654e-05,0.008056614044637997
+European Academy of Sciences and Arts,1.514059395389289e-05,0.0
+Hollandia,1.514059395389289e-05,0.0
+Club of Rome,1.514059395389289e-05,0.0
+Tilburg University,1.514059395389289e-05,0.0
+Woman's Peace Party,1.4777772885709133e-05,0.0
+Boston University,1.390498138422551e-05,0.0
+Spelman College,1.390498138422551e-05,0.0
+Florida State University,1.3361393273520445e-05,0.0
+Bryn Mawr College,1.3361393273520445e-05,0.0
+Mont Pelerin Society,1.2601511013485427e-05,0.0
+Women's Engineering Society,1.2402690828480325e-05,0.0
+University College London,1.2402690828480325e-05,0.0
+Royal Institution,1.2402690828480325e-05,0.0
+New York University,1.1286732255374346e-05,0.006696654537814327
+Smithsonian Institution,9.525179424537047e-06,0.0
+Royal Swedish Academy of Sciences,9.525179424537047e-06,0.0
+Indiana University Bloomington,9.525179424537047e-06,0.0
+Butler University,9.525179424537047e-06,0.0
+Hunter College,8.22752400949533e-06,0.0
+Rutgers University,8.22752400949533e-06,0.0
+Long Island University,8.22752400949533e-06,0.0
+School of Visual Arts,8.22752400949533e-06,0.0
+University of Massachusetts Amherst,6.744871905166814e-06,0.0
+American University,4.234281905996671e-06,2.0055582614674956e-05
+"City, University of London",3.7619235748847404e-06,0.0
+Tel Aviv University,2.676853469954173e-06,0.0009082313841217087
+Utrecht University,2.676853469954173e-06,0.0009082313841217087
+Saint Louis University,2.4141245142509484e-06,0.0
+St. Louis University High School,2.4141245142509484e-06,0.0
+Ohio State University,2.4141245142509484e-06,0.0
+Maryville University,2.4141245142509484e-06,0.0
+Southern Illinois University,2.4141245142509484e-06,0.0
+University of Illinois at Springfield,2.4141245142509484e-06,0.0
+Upward Bound,2.4141245142509484e-06,0.0
+Fordham University,2.334301570025372e-06,0.0009082313841217087
+League of Nations,2.3178770717199634e-06,0.002713233819442455
+The Catholic University of America,2.2454503711049753e-06,0.0
+University of Southern Maine,1.9747572085892795e-06,0.0
+Princeton University,1.1267499446079586e-06,0.002713233819442455
+World,1.0766918129073654e-06,0.0
+Saturday Review,1.0766918129073654e-06,0.0
+Hampshire College,1.0368023765638414e-06,0.0
+Sam Houston State University,5.74039558159898e-07,0.0
+Nova Southeastern University,5.74039558159898e-07,0.0
+University of Houston,5.531859928822981e-07,0.0
+University of Tehran,5.531859928822981e-07,0.0
+University of Michigan,5.296714589634712e-07,0.0036071397874108246
+Committee of Concerned Asian Scholars,4.852167016948923e-07,0.0
+American Society of International Law,9.167426637438928e-08,0.0
+Paris Diderot University,4.588771896095975e-08,0.0
+California State University,2.3173531610130662e-08,0.0
+"University of California, Davis",2.3173531610130662e-08,0.0
+Royal Society of Canada,1.5512848081543662e-12,6.876199753602842e-05
+University of Alberta,1.5363936016287171e-12,3.7246081998682064e-05
+Philander Smith University,1.399296313661103e-12,0.0
+United States Air Force,1.399296313661103e-12,0.0
+National Advisory Committee for Aeronautics,1.399296313661103e-12,0.0
+United Jewish Peoples' Order,1.399296313661103e-12,0.0
+American Mathematical Society,1.399296313661103e-12,0.0
+Pennsylvania State University,1.399296313661103e-12,0.0
+York University,1.399296313661103e-12,0.0
+City College of New York,1.399296313661103e-12,0.0
+Fisk University,1.399296313661103e-12,0.0
+University of Toronto,1.5198849449326326e-13,0.0
+University of Washington,5.682774618759733e-20,1.4325416153339256e-05
+Forman Christian College,4.597461241779235e-20,0.0
+Lahore University of Management Sciences,4.597461241779235e-20,0.0
+Quaid-i-Azam University,4.597461241779235e-20,0.0
+Virtual University of Pakistan,4.597461241779235e-20,0.0
+United Food and Commercial Workers (United States),1.6917682134059046e-20,0.0
+Coalition of Labor Union Women,1.6917682134059046e-20,0.0
+International Brotherhood of Teamsters,1.6917682134059046e-20,0.0
+Service Employees International Union,1.6917682134059046e-20,0.0
+Mothers for Police Accountability,1.6917682134059046e-20,0.0
+The Dirty Mac,1.6917682134059046e-20,0.0
+Plastic Ono Band,1.6917682134059046e-20,0.0
+The Quarrymen,1.6917682134059046e-20,0.0
+The Beatles,1.6917682134059046e-20,0.0
+The Beat Brothers,1.6917682134059046e-20,0.0
+Kyoto University,5.093987931832856e-21,3.438099876801421e-05
+"University of California, Santa Barbara",3.1794693461305354e-21,1.4325416153339256e-05
+University of Nottingham,3.1794693461305354e-21,1.4325416153339256e-05
+Kwansei Gakuin University,3.148256572773492e-21,0.0
+Radboud University Nijmegen,3.148256572773492e-21,0.0
+Ritsumeikan University,3.148256572773492e-21,0.0
+University of Lancaster,2.4824546503447954e-21,0.0
+University of Birmingham,2.4824546503447954e-21,0.0
+Tokyo Institute of Technology,1.945731359059364e-21,0.0
+Doshisha University,1.945731359059364e-21,0.0
+American Friends Service Committee,9.452432689105392e-22,1.1460332922671404e-05
+Schweizer Spende,7.255610571257781e-22,0.0
+International Bureau of Education,7.255610571257781e-22,0.0
+University of Cambridge,7.255610571257781e-22,0.0
+Service Civil International,2.6679187646505195e-22,2.578574907601066e-05
+International Fellowship of Reconciliation,2.6679187646505195e-22,2.578574907601066e-05
+National Tertiary Education Union,1.6007512587903117e-22,0.0
+International Central Committee of the Esperanto Movement,1.6007512587903117e-22,0.0
+University of Neuchâtel,1.6007512587903117e-22,0.0
+Swiss Esperanto Society,1.6007512587903117e-22,0.0
+Universal Esperanto Association,1.6007512587903117e-22,0.0
+Jews Against the Occupation,1.6007512587903117e-22,0.0
+Bureau of Industry Economics,1.6007512587903117e-22,0.0
+Australian National University,1.6007512587903117e-22,0.0
+James Madison University,1.6007512587903117e-22,0.0
+Conrad Grebel University College,1.6007512587903117e-22,0.0
+United Nations Association,1.6007512587903117e-22,0.0
+Mennonite Central Committee,1.6007512587903117e-22,0.0
+World Federalist Movement-Canada,1.6007512587903117e-22,0.0
+University of Jordan,1.6007512587903117e-22,0.0
+Peace Corps,1.6007512587903117e-22,0.0
+Center for International Stabilization and Recovery,1.6007512587903117e-22,0.0
+Obshchaya Gazeta,1.6007512587903117e-22,0.0
+Izvestia,1.6007512587903117e-22,0.0
+Megapolis-Express,1.6007512587903117e-22,0.0
+Novaya Gazeta,1.6007512587903117e-22,0.0
+Vegetarian Society,3.229688926382197e-23,1.7190499384007104e-05
+Bible Christian Church,1.9960575232659034e-23,0.0
+United Kingdom Alliance,1.9960575232659034e-23,0.0
+Inner Temple,1.2336314031162935e-23,0.0
+Democratic Socialists of America,9.005265590210229e-24,8.595249692003552e-06
+Q97119226,9.005265590210229e-24,8.595249692003552e-06
+UNICEF,9.005265590210229e-24,8.595249692003552e-06
+"Mayoral Advisory Commission on City Art, Monuments, and Markers",6.36768436522339e-24,0.0
+Office of Management and Budget,6.36768436522339e-24,0.0
+State University of New York at Old Westbury,6.36768436522339e-24,0.0
+University of Salzburg,6.36768436522339e-24,0.0
+Leipzig University,6.36768436522339e-24,0.0
+The Sanders Institute,6.36768436522339e-24,0.0
+Föreningen frisinnade kvinnor,5.0926846398794625e-25,0.0
+Föreningen för kvinnans politiska rösträtt i Västerås,5.0926846398794625e-25,0.0
+Quiet Birdmen,5.0926846398794625e-25,0.0
+Folkets Hus och Parker,5.0926846398794625e-25,0.0
+Deutsche Friedens-Union,5.0926846398794625e-25,0.0
+British Society for the Study of Sex Psychology,5.0926846398794625e-25,0.0
+National Society for the Abolition of Cruel Sports,5.0926846398794625e-25,0.0
+Humanitarian League,5.0926846398794625e-25,0.0
+Aargauische Kantonalbank,5.0926846398794625e-25,0.0
+Association of Persecutees of the Nazi Regime – Federation of Antifascists,5.0926846398794625e-25,0.0
+Vereinte Dienstleistungsgewerkschaft,5.0926846398794625e-25,0.0
+Independent Order of Odd Fellows,5.0926846398794625e-25,0.0
+Palestine Liberation Organization,5.0926846398794625e-25,0.0
+Women in Black,5.0926846398794625e-25,0.0
+Bat Shalom,5.0926846398794625e-25,0.0
+Cusanuswerk,5.0926846398794625e-25,0.0
+Indymedia,5.0926846398794625e-25,0.0
+Food Not Bombs,5.0926846398794625e-25,0.0
+Clamshell Alliance,5.0926846398794625e-25,0.0
+America First Committee,5.0926846398794625e-25,0.0
+Sozialistischer Deutscher Studentenbund,5.0926846398794625e-25,0.0
+Unitarian Universalist Service Committee,5.0926846398794625e-25,0.0
+University of Münster,5.0926846398794625e-25,0.0
+Center for Peace Studies (Croatia),5.0926846398794625e-25,0.0
+Centre for Women’s Studies Zagreb,5.0926846398794625e-25,0.0
+co-founder,5.0926846398794625e-25,0.0
+Win Without War,5.0926846398794625e-25,0.0
+Humboldt-Universität zu Berlin,5.0926846398794625e-25,0.0
+Council for a Livable World,5.0926846398794625e-25,0.0
+Chicago Tribune,5.0926846398794625e-25,0.0
+Metropolitan Water Reclamation District of Greater Chicago,5.0926846398794625e-25,0.0
+WGN,5.0926846398794625e-25,0.0
+Frederick William University Berlin,5.0926846398794625e-25,0.0
+Aosdána,5.37901140778905e-26,5.730166461335702e-06
+Women's Peace Army,5.37901140778905e-26,5.730166461335702e-06
+Hebrew University of Jerusalem,5.37901140778905e-26,5.730166461335702e-06
+Women's International Democratic Federation,5.379011407789048e-26,5.730166461335702e-06
+Israel Academy of Sciences and Humanities,3.324411875887054e-26,0.0
+Algerian Communist Party,3.324411875887053e-26,0.0
+Royal Society of Literature,3.324411875887053e-26,0.0
+Women's Political Association of Victoria,3.324411875887053e-26,0.0
+Birzeit University,3.6440386669027036e-28,2.865083230667851e-06
+University of Auckland,3.6440386669027036e-28,2.865083230667851e-06
+"Birkbeck, University of London",3.6440386669027036e-28,2.865083230667851e-06
+Boston study group,3.6440386669027036e-28,2.865083230667851e-06
+"University of California, Santa Cruz",3.6440386669027036e-28,2.865083230667851e-06
+International Workingmen's Association,3.6440386669027036e-28,2.865083230667851e-06
+Antiwar.com,3.6440386669027036e-28,2.865083230667851e-06
+University of Sydney,3.6440386669027036e-28,2.865083230667851e-06
+Human Rights League,3.6440386669027036e-28,2.865083230667851e-06
+World Future Council,3.6440386669027036e-28,2.865083230667851e-06
+Philobiblon Club,2.576724452272888e-28,0.0
+No Conscription Fellowship,2.576724452272888e-28,0.0
+All-Union Society of Old Bolsheviks,2.576724452272888e-28,0.0
+Committee in Solidarity with the People of El Salvador,2.576724452272888e-28,0.0
+Chilton Saint James School,2.576724452272888e-28,0.0
+Richmond Progressive Alliance,2.576724452272888e-28,0.0
+Labour Party,2.576724452272888e-28,0.0
+Helmholtz-Gymnasium Bonn,2.576724452272888e-28,0.0
+Q56721927,2.576724452272888e-28,0.0
+Rote Hilfe,2.576724452272888e-28,0.0
+Lotta Continua,2.576724452272888e-28,0.0
+Sears,2.576724452272888e-28,0.0
+Swansea University,2.576724452272888e-28,0.0
+Liberation,2.576724452272888e-28,0.0
+Vassar College,2.576724452272888e-28,0.0
+University of Milan,2.576724452272888e-28,0.0
+Iti Giovanni XXIII,2.576724452272888e-28,0.0
+Royal College of Veterinary Surgeons,2.576724452272888e-28,0.0
+State University of New York at Albany,2.576724452272888e-28,0.0
+Sigma 6,2.576724452272888e-28,0.0
+Pink Floyd,2.576724452272888e-28,0.0
+Istituto Superiore di Sanità,2.576724452272888e-28,0.0
+Imperial College London,2.576724452272888e-28,0.0
+Bangor University,2.576724452272888e-28,0.0
+The Open University,2.576724452272888e-28,0.0
+French Communist Party,2.576724452272888e-28,0.0
+Stop the War Coalition,2.576724452272888e-28,0.0
+Wistar Institute,2.576724452272888e-28,0.0
+General Council of the Trades Union Congress,2.576724452272888e-28,0.0
+Abraham Lincoln Brigade,2.576724452272888e-28,0.0
+Jefferson School of Social Science,2.576724452272888e-28,0.0
+United Nations Association UK,2.576724452272888e-28,0.0
+Oregon Bureau of Labor and Industries,2.576724452272888e-28,0.0
+Adams High School,2.576724452272888e-28,0.0
+Gorsedd Cymru,2.576724452272888e-28,0.0
+"American Society of Composers, Authors and Publishers",2.576724452272888e-28,0.0
+Al. Piantadosi & Co.,2.576724452272888e-28,0.0
+Albertus Magnus College,2.576724452272888e-28,0.0
+George Fox University,2.576724452272888e-28,0.0
+Q21406862,2.576724452272888e-28,0.0
+Association of German Engineers,2.576724452272888e-28,0.0
+Jewish Agency for Israel,2.576724452272888e-28,0.0
+University of Virginia,2.576724452272888e-28,0.0
+Austen Riggs Center,2.576724452272888e-28,0.0
+Israel Defense Forces,2.576724452272888e-28,0.0
+Q10429949,2.576724452272888e-28,0.0
+Q10685090,2.576724452272888e-28,0.0
+Francs-tireurs et partisans,2.576724452272888e-28,0.0
+Willamette University,2.576724452272888e-28,0.0
+Victoria University of Wellington,2.576724452272888e-28,0.0
+Sapienza University of Rome,2.576724452272888e-28,0.0
+Birgitta school,2.576724452272888e-28,0.0
+University of Edinburgh,2.576724452272888e-28,0.0
+Queen's University Belfast,2.576724452272888e-28,0.0
+"Department of Statistical Sciences, Sapienza University of Rome",2.576724452272888e-28,0.0
+University of New Orleans,2.576724452272888e-28,0.0
+University of Innsbruck,2.576724452272888e-28,0.0
+"Kroc Institute for International Peace Studies, University of Notre Dame",2.576724452272888e-28,0.0
+Bonniers veckotidning,2.576724452272888e-28,0.0
+Peace Action,2.576724452272888e-28,0.0
+Steve Earle & The Dukes,2.5799098293847373e-33,0.0
+University of Yamanashi,2.5799098293847373e-33,0.0
+Lincoln's Inn,2.5799098293847373e-33,0.0
+Spies for Peace,2.5799098293847373e-33,0.0
+Paez people,2.5799098293847373e-33,0.0
+Colby College,2.5799098293847373e-33,0.0
+The Disposable Heroes of Hiphoprisy,2.5799098293847373e-33,0.0
+Mouvement de la Paix,2.5799098293847373e-33,0.0
+National and Kapodistrian University of Athens,2.5799098293847373e-33,0.0
+Liverpool Hope University,2.5799098293847373e-33,0.0
+Sojourners,2.5799098293847373e-33,0.0
+Q105317493,2.5799098293847373e-33,0.0
+Society Culture of Peace,2.5799098293847373e-33,0.0
+Addis Ababa University,2.5799098293847373e-33,0.0
+Barts and The London School of Medicine and Dentistry,2.5799098293847373e-33,0.0
+Citizens Against Desert Storm,2.5799098293847373e-33,0.0
+Greenham Common Women's Peace Camp,2.5799098293847373e-33,0.0
+Wayne State University,2.5799098293847373e-33,0.0
+University of Hawaiʻi System,2.5799098293847373e-33,0.0
+Ness Ziona Synagogue,2.5799098293847373e-33,0.0
+Brit Shalom,2.5799098293847373e-33,0.0
+University of Illinois at Chicago,2.5799098293847373e-33,0.0
+University of Göttingen,2.5799098293847373e-33,0.0
+Scottish Vegetarian Society,2.5799098293847373e-33,0.0
+Women Cross DMZ,2.5799098293847373e-33,0.0
+University of Ottawa,2.5799098293847373e-33,0.0
+American Red Cross,2.5799098293847373e-33,0.0
+Ewha Womans University,2.5799098293847373e-33,0.0
+Academy of Arts of the GDR,2.5799098293847373e-33,0.0
+North Carolina Bar Association,2.5799098293847373e-33,0.0
+Wellington Hospital,2.5799098293847373e-33,0.0
+Copper Canyon Press,2.5799098293847373e-33,0.0
+University of British Columbia,2.5799098293847373e-33,0.0
+Amnesty International,2.5799098293847373e-33,0.0
+AJEEC-NISPED,2.5799098293847373e-33,0.0
+Lieutenant Governor of Arkansas,2.5799098293847373e-33,0.0
+College of San Mateo,2.5799098293847373e-33,0.0
+Gray's Inn,2.5799098293847373e-33,0.0
+Young Communist League USA,2.5799098293847373e-33,0.0
+Verein der Schriftstellerinnen und Künstlerinnen Wien,2.5799098293847373e-33,0.0
+PAX,2.5799098293847373e-33,0.0
+Parliamentary Assembly of the Council of Europe,2.5799098293847373e-33,0.0
+Black Panther Party,2.5799098293847373e-33,0.0
+National American Woman Suffrage Association,2.5799098293847373e-33,0.0
+Quakers,2.5799098293847373e-33,0.0
+University of Pristina (1969–1999),2.5799098293847373e-33,0.0
+freemasonry,2.5799098293847373e-33,0.0
+Committee of 100,2.5799098293847373e-33,0.0
+The Weavers,2.5799098293847373e-33,0.0
+Jewish Voice for Peace,2.5799098293847373e-33,0.0
+Washington Alpine Club,2.5799098293847373e-33,0.0
+La Vie,2.5799098293847373e-33,0.0
+Libyan Political Dialogue Forum,2.5799098293847373e-33,0.0
+Goethe University Frankfurt,2.5799098293847373e-33,0.0
+Veterans for Peace,2.5799098293847373e-33,0.0
+Föreningen för kvinnans politiska rösträtt i Jönköping,2.5799098293847373e-33,0.0
+Föreningen för kvinnans politiska rösträtt i Luleå,2.5799098293847373e-33,0.0
+Spiegel-Verlag,2.5799098293847373e-33,0.0
+National Peace Council,2.5799098293847373e-33,0.0
+RAND Corporation,2.5799098293847373e-33,0.0
+Committee to Defend America by Aiding the Allies,2.5799098293847373e-33,0.0
+American Indian Movement,2.5799098293847373e-33,0.0
+Rice University,2.5799098293847373e-33,0.0
+Mongols Motorcycle Club,2.5799098293847373e-33,0.0
+Youth International Party,2.5799098293847373e-33,0.0
+The Witch Trials,2.5799098293847373e-33,0.0
+St. Bonaventure University,2.5799098293847373e-33,0.0
+University of Liverpool,2.5799098293847373e-33,0.0
+United States Army Special Forces,2.5799098293847373e-33,0.0
+Team Media War,2.5799098293847373e-33,0.0
+WILPF Nigeria,2.5799098293847373e-33,0.0
+Memorial,2.5799098293847373e-33,0.0
+Shady Hill School,2.5799098293847373e-33,0.0
+Folkereisning mot krig,2.5799098293847373e-33,0.0
+Beaconhouse National University,2.5799098293847373e-33,0.0
+Doukhobors,2.5799098293847373e-33,0.0
+Pratt Institute,2.5799098293847373e-33,0.0
+"St Jude's Church, Kensington",2.5799098293847373e-33,0.0
+MAFAPO,2.5799098293847373e-33,0.0
+Supreme Court of Bangladesh,2.5799098293847373e-33,0.0
+Tufts University,2.5799098293847373e-33,0.0
+Theological Faculty of Paderborn,2.5799098293847373e-33,0.0
+Danske Kvinders Forsvarsforening,2.5799098293847373e-33,0.0
+Kvindernes Internationale Liga for Fred og Frihed,2.5799098293847373e-33,0.0
+Johns Hopkins University,2.5799098293847373e-33,0.0
+Bard College,2.5799098293847373e-33,0.0
+Central Intelligence Agency,2.5799098293847373e-33,0.0
+Kreisau Circle,2.5799098293847373e-33,0.0
+RT,2.5799098293847373e-33,0.0
+War Resisters League,2.5799098293847373e-33,0.0
+University of Copenhagen,2.5799098293847373e-33,0.0
+Landestheater Eisenach,2.5799098293847373e-33,0.0
+Peace Now,2.5799098293847373e-33,0.0
+Rage Against the Machine,2.5799098293847373e-33,0.0
+Concordia University,2.5799098293847373e-33,0.0
+State of Alert,2.5799098293847373e-33,0.0
+Community Peacemaker Teams,2.5799098293847373e-33,0.0
+DDT,2.5799098293847373e-33,0.0
+Corrymeela Community,2.5799098293847373e-33,0.0
+Société pour l'amélioration du sort de la femme et la revendication de ses droits,2.5799098293847373e-33,0.0
+Los Alamos National Laboratory,2.5799098293847373e-33,0.0
+Campaign for World Government,2.5799098293847373e-33,0.0
+Homebrew Computer Club,2.5799098293847373e-33,0.0
+Marquette University,2.5799098293847373e-33,0.0
+University of Minnesota,2.5799098293847373e-33,0.0
+University of Amsterdam,2.5799098293847373e-33,0.0
+Geneva Call,2.5799098293847373e-33,0.0
+Pan-Korean Alliance for Reunification,2.5799098293847373e-33,0.0
+Esperanto Language Committee,2.5799098293847373e-33,0.0
+Salem University,2.5799098293847373e-33,0.0
+Japan Women's University,2.5799098293847373e-33,0.0
+Rissho University,2.5799098293847373e-33,0.0
+Auburn University,2.5799098293847373e-33,0.0
+Colgate University,2.5799098293847373e-33,0.0
+San Francisco State University,2.5799098293847373e-33,0.0

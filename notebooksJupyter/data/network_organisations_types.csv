@@ -1,324 +1,271 @@
 ,organisation,effectif
-0,organization,44
-1,international organization | non-governmental organization | nonprofit organization | women's organization,26
-2,international organization | peace organization | women's organization,22
-3,university,17
-4,academic publisher | learned society | nonprofit organization,15
-5,colonial colleges | private not-for-profit educational institution | private university | research university,13
-6,intergovernmental organization | international organization,10
-7,musical group,10
-8,political organization,9
-9,private not-for-profit educational institution | university,8
-10,peace organization,8
-11,public educational institution of the united states | university,8
-12,colonial colleges | organization | private not-for-profit educational institution | private university | research university,8
-13,nonprofit organization,8
-14,organization | political party,7
-15,public university,7
-16,public educational institution of the united states | public university,7
-17,public research university,6
-18,public educational institution of the united states | public research university,6
-19,academy of sciences | award,6
-20,open-access publisher | private not-for-profit educational institution | private university | research university,6
-21,advocacy group | international organization,6
-22,international organization | labor union,5
-23,newspaper,5
-24,magazine,5
-25,private not-for-profit educational institution | private university | research university,5
-26,private not-for-profit educational institution | private university,4
-27,academic publisher | colonial colleges | private not-for-profit educational institution | private university | research university,4
-28,educational organization | higher education institution | public research university,4
-29,government agency,4
-30,open-access publisher | private not-for-profit educational institution | university,4
-31,non-governmental organization | organization | publishing company,4
-32,non-governmental organization,3
-33,sorority,3
-34,fraternity,3
-35,national red cross and red crescent society,3
-36,academy of sciences | learned society | national academy | open-access publisher | organization | publishing company,3
-37,academic publisher | honor society | learned society | organization,3
-38,private university,3
-39,private not-for-profit educational institution | private university | research university | workplace,3
-40,political party,3
-41,organization | public educational institution of the united states | public research university | university | university campus,3
-42,catholic university | private not-for-profit educational institution | private university | research university,3
-43,nonprofit organization | women's club,3
-44,land-grant university | private not-for-profit educational institution | private university | research university | sun grant institution,3
-45,online database | voluntary association,2
-46,educational organization | public research university,2
-47,foundation | nonprofit organization,2
-48,periodical,2
-49,christian organization | nonprofit organization | organization related to nonviolence,2
-50,open-access publisher | private university | public educational institution of the united states | public–private partnership | research university,2
-51,collection | public educational institution of the united states | university,2
-52,newspaper | online newspaper,2
-53,open-access publisher | ottoman association | university,2
-54,daily newspaper,2
-55,colleges that change lives | liberal arts college | private not-for-profit educational institution,2
-56,geographic location | university,2
-57,educational organization | higher education institution | public university,2
-58,high school,2
-59,educational organization | higher education institution | open-access publisher | organization | public research university,2
-60,organization | women's organization,2
-61,group of humans | protest,2
-62,discussion group,2
-63,organization | university,2
-64,non-governmental organization | organization,2
-65,organization established by the united nations,2
-66,comprehensive university | public university,2
-67,constituent college | educational organization | higher education institution | public research university,2
-68,daily newspaper | newspaper,2
-69,organization | political international,2
-70,organization | public research university,2
-71,catholic university,2
-72,academy of sciences | learned society | national academy,2
-73,advocacy group | organization | women's organization,2
-74,school,2
-75,academy of sciences | archive | national academy,2
-76,academic publisher | comprehensive university | national university | university,2
-77,learned society | nonprofit organization,2
-78,labor union,2
-79,academic publisher | international organization | nonprofit organization | open-access publisher,2
-80,labor union | nonprofit organization,2
-81,land-grant university | public educational institution of the united states | public research university,2
-82,advocacy group | nonprofit organization,2
-83,advocacy group,2
-84,private not-for-profit educational institution | seminary,2
-85,labor union | women's organization,2
-86,academy of sciences,2
-87,academy of sciences | publishing company,2
-88,international organization | non-governmental organization | women's organization | women's rights organization,2
-89,academy of sciences | national academy | organization | public body,2
-90,academic publisher | catholic university | open-access publisher | private not-for-profit educational institution | private university,2
-91,academic publisher | academy | academy of sciences,2
-92,charitable organization | club,2
-93,private not-for-profit educational institution | university | university campus,2
-94,web portal | website | youtube channel,2
-95,voluntary association,2
-96,law school,2
-97,liberal arts college in the united states | private not-for-profit educational institution,2
-98,501(c)(3) organization | magazine | website,2
-99,inns of court,2
-100,land-grant university | public educational institution of the united states | university,2
-101,business,2
-102,public educational institution of the united states | public university | university | university building,2
-103,public educational institution of the united states | university campus,2
-104,academic publisher | academy of sciences | production company | publishing company,2
-105,autonomous university | comprehensive academic and research university | corporation | open-access publisher | public research university,2
-106,nonprofit organization | regulatory college,1
-107,national university | university,1
-108,nonprofit organization | religious organization | women's organization,1
-109,mathematical society,1
-110,nonprofit organization | research institute,1
-111,mass media | weekly newspaper,1
-112,nonprofit organization | small press,1
-113,minor party,1
-114,music publishing company,1
-115,nonprofit organization | psychiatric hospital,1
-116,mixed brigade,1
-117,network or movement of the french resistance,1
-118,nonprofit organization | veterans' organization,1
-119,national trade union center,1
-120,network | peace organization | voluntary association,1
-121,national section of uea,1
-122,newspaper | student newspaper,1
-123,national council of churches,1
-124,non-governmental organization | nonprofit corporation | nonprofit organization,1
-125,national academy,1
-126,non-governmental organization | nonprofit organization,1
-127,musical group | supergroup,1
-128,musical group | rock band,1
-129,non-governmental organization | nonprofit organization | peace movement,1
-130,motorcycle club | outlaw motorcycle club,1
-131,non-governmental organization | research institute,1
-132,nonprofit organization | think tank,1
-133,501(c)(3) organization,1
-134,nonprofit organization | voluntary association,1
-135,public educational institution of the united states | public research university | university,1
-136,publishing company,1
-137,radio station,1
-138,religious organization,1
-139,research institute,1
-140,research institute | university,1
-141,resistance movement,1
-142,rock band,1
-143,scientific society,1
-144,scientific society | think tank,1
-145,seminary | university college,1
-146,specialized agency of the united nations,1
-147,sports club,1
-148,state order,1
-149,state university system,1
-150,state university system | university,1
-151,studentenverbindung,1
-152,supreme court,1
-153,synagogue,1
-154,technical institute,1
-155,theatre building,1
-156,think tank,1
-157,trade magazine,1
-158,united states federal agency,1
-159,university in france,1
-160,university in quebec,1
-161,public research university | university,1
-162,protestant church building,1
-163,open-access publisher | organization | university,1
-164,private university | women's college,1
-165,open-access publisher | private not-for-profit educational institution | research institute | university,1
-166,open-access publisher | production company | public research university,1
-167,open-access publisher | public educational institution of the united states | public university,1
-168,open-access publisher | public research university,1
-169,open-access publisher | public research university | public university | research university | university in ontario,1
-170,open-access publisher | public research university | university | university in british columbia,1
-171,open-access publisher | state university system | university,1
-172,open-access publisher | university,1
-173,organization | peace organization | women's organization,1
-174,organization | political movement | women's organization,1
-175,organization | public university,1
-176,organization | secret society,1
-177,organization | social media,1
-178,liberal arts college | private university | public university,1
-179,organization | women's rights organization,1
-180,organization | wwii resistance group,1
-181,organization | young communist league,1
-182,pacifist organisation,1
-183,parliamentary assembly,1
-184,peace camp,1
-185,political coalition | political organization,1
-186,political organization | students' union,1
-187,private for-profit educational institution | university,1
-188,private not-for-profit educational institution | school,1
-189,private not-for-profit educational institution | university | women's college,1
-190,organization | voluntary association,1
-191,indigenous rights organization | non-governmental organization | political movement,1
-192,liberal arts college | private not-for-profit educational institution | private university,1
-193,blue-ribbon panel | report,1
-194,branch of service | military unit branch-type class | united states army formation | united states special operations forces,1
-195,building | educational organization | public research university | university,1
-196,building | private not-for-profit educational institution | university,1
-197,burschenschaft,1
-198,business school | higher education institution | public educational institution of the united states,1
-199,business | company | copyright collective | nonprofit organization | performing rights organization,1
-200,business | public company,1
-201,campus university | comprehensive university | nonprofit organization | public university | stiftungshochschule,1
-202,cantonal bank,1
-203,catholic theological faculty | church college | public educational institution,1
-204,cemetery | private not-for-profit educational institution | university | women's college,1
-205,census-designated place in the united states | land-grant university | open-access publisher | public educational institution of the united states | university,1
-206,charitable organization | educational organization | higher education institution | university,1
-207,charitable organization | non-governmental organization,1
-208,christian denomination,1
-209,christian denomination | ethnoreligious group | religious community,1
-210,christian denominational family | religion | worldview,1
-211,christian organization | nonprofit organization,1
-212,church building,1
-213,church building | organization,1
-214,church college | private not-for-profit educational institution | university,1
-215,cinema chain | film production company | film studio,1
-216,club,1
-217,club | nonprofit organization | organization | standards organization | trade union federation,1
-218,college of the university of cambridge | university building,1
-219,college | historically black college or university | private not-for-profit educational institution,1
-220,collegiate university | educational organization | organization | public research university,1
-221,collegiate university | public research university | university in ontario,1
-222,colonial colleges | land-grant university | public research university | sea grant institution,1
-223,boarding school | public school | secondary school,1
-224,backing band | musical group,1
-225,communist party,1
-226,association | nonprofit organization,1
-227,501(c)(4) organization | political organization,1
-228,academic department,1
-229,academic institution,1
-230,academic institution | educational organization | higher education institution | university college,1
-231,academic institution | public university,1
-232,academic publisher | institute of technology | research institute | university in postwar japan,1
-233,academy,1
-234,academy of sciences and arts,1
-235,academy of sciences | book publisher | organization,1
-236,academy of sciences | building | national academy | swedish royal academies,1
-237,academy of sciences | learned society | national academy | open-access publisher,1
-238,academy of sciences | national academy,1
-239,academy of sciences | national academy | pontifical academy,1
-240,academy of sciences | statutory corporation,1
-241,academy | voluntary association,1
-242,accrediting body | professional association,1
-243,advocacy group | organization,1
-244,advocacy group | peace organization | propagandist,1
-245,advocacy group | political organization,1
-246,aid agency | political organization,1
-247,air force | united states federal agency,1
-248,ancient university | open-access publisher | organization | public university,1
-249,architectural structure | museum | university museum | zoological museum,1
-250,armed forces,1
-251,armed organization,1
-252,art academy | private for-profit educational institution | university,1
-253,artist collective | women's organization,1
-254,association,1
-255,association | charitable organization | organization,1
-256,combined school | private school | secondary school,1
-257,communist party | political party,1
-258,liberal arts college | private not-for-profit educational institution,1
-259,fraternal organization | social group,1
-260,government agency | national health service | national public health institute | open-access publisher,1
-261,government body of australia,1
-262,government body of australia | production company | public university,1
-263,government gazette | newspaper,1
-264,government organization,1
-265,group of humans,1
-266,gymnasium in germany,1
-267,higher education institution | public educational institution of the united states,1
-268,historical society | human rights organization | umbrella organization,1
-269,historical society | learned society | nonprofit organization | trade union federation,1
-270,historically black college or university | private not-for-profit educational institution | private university,1
-271,historically black college or university | private not-for-profit educational institution | school,1
-272,historically black college or university | private not-for-profit educational institution | women's college in the united states,1
-273,history of feminism | peace movement,1
-274,hospital,1
-275,human rights organization | organization | women's organization,1
-276,institution | museum | nonprofit organization,1
-277,international non-governmental organization | nonprofit organization,1
-278,international organization | learned society | nonprofit organization | think tank,1
-279,international organization | non-governmental organization | think tank,1
-280,jewish organization | nonprofit organization,1
-281,korporationsverband,1
-282,labor school,1
-283,labor union | organization,1
-284,land-grant university | open-access publisher | production company | public educational institution of the united states | public research university,1
-285,land-grant university | public educational institution of the united states | public research university | public university | research university | sea grant institution | space grant institution | sun grant institution,1
-286,learned society,1
-287,learned society | national academy,1
-288,lgbtq+ rights organization,1
-289,gorsedd,1
-290,fraternal order | organization | secret society,1
-291,community college | school,1
-292,foundation,1
-293,comprehensive university | local internet registry | organization | public university,1
-294,comprehensive university | local internet registry | public university,1
-295,comprehensive university | open-access publisher | public research university | university of excellence,1
-296,comprehensive university | open-access publisher | public university | university of applied sciences,1
-297,congressional caucus,1
-298,cooperative,1
-299,corporate title | occupation | occupation | profession | role,1
-300,council,1
-301,cultural property | public university | university campus,1
-302,dental school | medical school,1
-303,educational facility,1
-304,educational institution | inns of court | university building,1
-305,educational organization | higher education institution | open-access publisher | organization | public research university | university,1
-306,educational organization | higher education institution | open-access publisher | organization | public university,1
-307,educational organization | higher education institution | university,1
-308,educational organization | open-access publisher | public research university,1
-309,educational organization | public university,1
-310,elective office | position,1
-311,engineering society | nonprofit organization | women's organization,1
-312,esperanto language institute,1
-313,esperanto organization,1
-314,esperanto organization | esperanto publisher | non-governmental organization | nonprofit organization,1
-315,ethnic group,1
-316,facility | united states national laboratory,1
-317,faculty | seminary,1
-318,folk high school,1
-319,foreign agent | television network | television station | website,1
-320,foreign intelligence service | independent agency of the united states government,1
-321,former christian denomination,1
-322,women's organization,1
+0,organization,111
+1,nonprofit organization,87
+2,private not-for-profit educational institution,83
+3,university,77
+4,international organization,75
+5,women's organization,63
+6,private university,60
+7,research university,49
+8,public research university,46
+9,non-governmental organization,45
+10,open-access publisher,44
+11,public educational institution of the united states,43
+12,public university,35
+13,academic publisher,33
+14,peace organization,33
+15,learned society,30
+16,academy of sciences,29
+17,colonial colleges,26
+18,educational organization,21
+19,higher education institution,17
+20,national academy,15
+21,advocacy group,15
+22,political organization,14
+23,musical group,13
+24,labor union,12
+25,publishing company,12
+26,political party,11
+27,land-grant university,11
+28,newspaper,11
+29,intergovernmental organization,10
+30,comprehensive university,9
+31,university campus,8
+32,voluntary association,8
+33,magazine,7
+34,catholic university,7
+35,award,6
+36,research institute,6
+37,liberal arts college,5
+38,school,5
+39,charitable organization,5
+40,website,5
+41,think tank,5
+42,government agency,5
+43,production company,5
+44,historically black college or university,4
+45,academy,4
+46,business,4
+47,sun grant institution,4
+48,daily newspaper,4
+49,seminary,4
+50,university building,4
+51,club,4
+52,honor society,3
+53,foundation,3
+54,fraternity,3
+55,group of humans,3
+56,women's club,3
+57,national red cross and red crescent society,3
+58,inns of court,3
+59,women's college,3
+60,workplace,3
+61,state university system,3
+62,women's rights organization,3
+63,national university,3
+64,sorority,3
+65,501(c)(3) organization,3
+66,christian organization,3
+67,building,3
+68,academic institution,3
+69,association,3
+70,museum,2
+71,secondary school,2
+72,church building,2
+73,church college,2
+74,secret society,2
+75,autonomous university,2
+76,collection,2
+77,political movement,2
+78,occupation,2
+79,liberal arts college in the united states,2
+80,colleges that change lives,2
+81,collegiate university,2
+82,law school,2
+83,communist party,2
+84,trade union federation,2
+85,local internet registry,2
+86,online newspaper,2
+87,online database,2
+88,human rights organization,2
+89,protest,2
+90,public–private partnership,2
+91,private for-profit educational institution,2
+92,religious organization,2
+93,discussion group,2
+94,political international,2
+95,periodical,2
+96,peace movement,2
+97,rock band,2
+98,scientific society,2
+99,ottoman association,2
+100,organization related to nonviolence,2
+101,organization established by the united nations,2
+102,christian denomination,2
+103,sea grant institution,2
+104,comprehensive academic and research university,2
+105,public body,2
+106,esperanto organization,2
+107,government body of australia,2
+108,university college,2
+109,historical society,2
+110,constituent college,2
+111,web portal,2
+112,archive,2
+113,high school,2
+114,university in ontario,2
+115,youtube channel,2
+116,geographic location,2
+117,corporation,2
+118,united states federal agency,2
+119,resistance movement,1
+120,aid agency,1
+121,role,1
+122,backing band,1
+123,accrediting body,1
+124,air force,1
+125,weekly newspaper,1
+126,women's college in the united states,1
+127,ancient university,1
+128,veterans' organization,1
+129,university of excellence,1
+130,blue-ribbon panel,1
+131,united states army formation,1
+132,boarding school,1
+133,academy of sciences and arts,1
+134,public educational institution,1
+135,burschenschaft,1
+136,young communist league,1
+137,public school,1
+138,branch of service,1
+139,wwii resistance group,1
+140,book publisher,1
+141,radio station,1
+142,regulatory college,1
+143,worldview,1
+144,religion,1
+145,religious community,1
+146,academic department,1
+147,report,1
+148,university museum,1
+149,university of applied sciences,1
+150,university in france,1
+151,university in quebec,1
+152,synagogue,1
+153,art academy,1
+154,public company,1
+155,armed forces,1
+156,supreme court,1
+157,swedish royal academies,1
+158,united states special operations forces,1
+159,technical institute,1
+160,university in postwar japan,1
+161,television network,1
+162,television station,1
+163,theatre building,1
+164,armed organization,1
+165,trade magazine,1
+166,united states national laboratory,1
+167,students' union,1
+168,studentenverbindung,1
+169,student newspaper,1
+170,stiftungshochschule,1
+171,statutory corporation,1
+172,artist collective,1
+173,architectural structure,1
+174,state order,1
+175,standards organization,1
+176,sports club,1
+177,specialized agency of the united nations,1
+178,space grant institution,1
+179,university in british columbia,1
+180,social media,1
+181,social group,1
+182,small press,1
+183,umbrella organization,1
+184,supergroup,1
+185,dental school,1
+186,psychiatric hospital,1
+187,hospital,1
+188,corporate title,1
+189,government gazette,1
+190,government organization,1
+191,copyright collective,1
+192,gymnasium in germany,1
+193,cooperative,1
+194,history of feminism,1
+195,congressional caucus,1
+196,independent agency of the united states government,1
+197,protestant church building,1
+198,indigenous rights organization,1
+199,institute of technology,1
+200,institution,1
+201,company,1
+202,international non-governmental organization,1
+203,community college,1
+204,jewish organization,1
+205,korporationsverband,1
+206,gorsedd,1
+207,fraternal organization,1
+208,fraternal order,1
+209,council,1
+210,educational facility,1
+211,educational institution,1
+212,cultural property,1
+213,elective office,1
+214,engineering society,1
+215,esperanto language institute,1
+216,esperanto publisher,1
+217,ethnic group,1
+218,ethnoreligious group,1
+219,facility,1
+220,faculty,1
+221,film production company,1
+222,film studio,1
+223,folk high school,1
+224,foreign agent,1
+225,foreign intelligence service,1
+226,former christian denomination,1
+227,labor school,1
+228,combined school,1
+229,lgbtq+ rights organization,1
+230,christian denominational family,1
+231,pacifist organisation,1
+232,parliamentary assembly,1
+233,peace camp,1
+234,census-designated place in the united states,1
+235,performing rights organization,1
+236,political coalition,1
+237,cemetery,1
+238,catholic theological faculty,1
+239,pontifical academy,1
+240,position,1
+241,cantonal bank,1
+242,private school,1
+243,campus university,1
+244,business school,1
+245,profession,1
+246,professional association,1
+247,propagandist,1
+248,outlaw motorcycle club,1
+249,nonprofit corporation,1
+250,college of the university of cambridge,1
+251,network or movement of the french resistance,1
+252,mass media,1
+253,mathematical society,1
+254,medical school,1
+255,military unit branch-type class,1
+256,minor party,1
+257,mixed brigade,1
+258,motorcycle club,1
+259,music publishing company,1
+260,501(c)(4) organization,1
+261,college,1
+262,national council of churches,1
+263,national health service,1
+264,national public health institute,1
+265,national section of uea,1
+266,national trade union center,1
+267,cinema chain,1
+268,network,1
+269,zoological museum,1
